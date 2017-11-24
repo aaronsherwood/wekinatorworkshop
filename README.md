@@ -11,12 +11,5 @@ Download Wekinator and Processing. Install the necessary libraries in Processing
     * OpenCV for Processing
     * Minim
 
-## Workshop Outline
-* Supervised/Unsupervised/Reinforcment Learning
-* [Weka](https://en.wikipedia.org/wiki/Weka_(machine_learning))
-* Classification
-* Regression
-* Performances
-
 ## Sounds
 All the sound file loops included were downloaded from [http://looperman.com](http://looperman.com/loops). Each loop is 120bpm. Download more loops from there, at that speed, or morph them to be at that speed, and exchange them in the Processing sketches if you like.
