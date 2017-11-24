@@ -3,9 +3,10 @@
 A quick introduction to machine learning using Wekinator and Processing. In the workshop we'll use Wekinator, Processing, and a webcam to create gestural interfaces for making music.
 
 ## Requirements
+Download Wekinator and Processing. Install the necessary libraries in Processing by going to Sketch -> Import Library -> Add Library
 * [Wekinator](http://www.wekinator.org/)
 * [Processing](https://processing.org/)
-  * Libraries used:
+  * Libraries:
     * oscP5
     * OpenCV for Processing
     * Minim
