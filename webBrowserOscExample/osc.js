@@ -23,6 +23,10 @@ function setupOsc(oscPortIn, oscPortOut) {
 	});
 }
 
+function receiveOsc(address, value) {
+	console.log("received OSC: " + address + ", " + value);
+}
+
 var JSLink = "http://"+ipAddress+":8081/socket.io/socket.io.js"
 var JSElement = document.createElement('script');
 JSElement.src = JSLink;
@@ -41,7 +45,7 @@ window.mobileAndTabletcheck = function() {
 };
 
 function OnceLoaded() {
-    setupOsc(7500, 6448);
+    setupOsc(12000, 6448);
 		if (window.mobileAndTabletcheck()){
 			if (window.DeviceOrientationEvent) {
 	    window.addEventListener("deviceorientation", function () {
