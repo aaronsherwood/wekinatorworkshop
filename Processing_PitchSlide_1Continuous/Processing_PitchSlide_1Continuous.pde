@@ -57,7 +57,7 @@ void oscEvent(OscMessage theOscMessage) {
     if(theOscMessage.checkTypetag("f")) {
       float f = theOscMessage.get(0).floatValue();
       println("received1");
-      showMessage(f/400);//showMessage(f);
+      showMessage(f);//showMessage(f);
     }
   }
   
@@ -88,7 +88,7 @@ void drawText() {
     text("Listening for OSC message /wek/outputs, port 12000", 10, 30);
     
     textFont(myBigFont);
-    text(currentMessage, 190, 180);
+    text(currentMessage, 50, 180);
 }
 
 
